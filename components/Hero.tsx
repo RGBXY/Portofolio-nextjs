@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { HoverBorderGradient } from "./ui/Button";
 import { ImConfused } from "react-icons/im";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -23,7 +24,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="w-full h-[350px] lg:h-[380px] px-4 lg:w-[300px]">
-          <img className="w-full h-full object-cover" src={"/assets/profil.jpg"} alt="iyah" />
+          <Image width={200} height={200} className="w-full h-full object-cover" src={"/assets/profil.jpg"} alt="iyah" />
         </div>
       </div>
     </div>
