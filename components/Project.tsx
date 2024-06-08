@@ -18,14 +18,14 @@ const RecentProjects = () => {
           <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]" key={item.id}>
             <PinContainer title={item.title} href={item.link}>
               <Link href={item.link}>
-                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] mb-10">
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] mb-10">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
                     <img src="/assets/bg.png" />
                   </div>
                   <img src={item.img} alt="cover" className="z-10 absolute top-0" />
                 </div>
 
-                <h1 className="text-white font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{item.title}</h1>
+                <h1 className="dark:text-white text-black font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{item.title}</h1>
 
                 <p
                   className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
