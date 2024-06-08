@@ -5,12 +5,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/ProjectCard";
 import Link from "next/link";
+import { chakra } from "./ui/fonts";
 
 const RecentProjects = () => {
   return (
     <div id="project" className="py-20 flex items-center flex-col">
       <div className="text-start w-[90%] max-w-2xl lg:w-fit">
-        <h1 className="mb-10 pb-3 text-3xl border-b-2 border-white">Recent Project</h1>
+        <h1 className={`${chakra.className} mb-10 pb-3 text-3xl border-b-2 border-white`}>Recent Project</h1>
       </div>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16">
         {projects.map((item) => (
@@ -19,12 +20,12 @@ const RecentProjects = () => {
               <Link href={item.link}>
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] mb-10">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
-                    <img src="/bg.png" />
+                    <img src="/assets/bg.png" />
                   </div>
                   <img src={item.img} alt="cover" className="z-10 absolute top-0" />
                 </div>
 
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{item.title}</h1>
+                <h1 className="dark:text-white text-black font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{item.title}</h1>
 
                 <p
                   className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
