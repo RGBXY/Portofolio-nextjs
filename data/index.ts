@@ -71,7 +71,7 @@ export const people = [
 export const projects = [
   {
     id: 1,
-    title: "PPLG department profile",
+    title: "PPLG",
     des: "A dynamic web profile for SMK Negeri 1 Bangsri's Software Engineering (PPLG) department, showcasing curriculum, projects, and achievements.",
     img: "/assets/pplg.png",
     iconLists: ["/assets/laravel.png", "/assets/tailwind.png", "/assets/boot-removebg-preview.png"],
@@ -79,7 +79,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Karabo | Q&A platform",
+    title: "Karabo",
     des: "An interactive Q&A platform enabling users to ask questions, share knowledge, and engage in community discussions. Designed for efficient information exchange and collaborative problem-solving.",
     img: "/assets/karabo.png",
     iconLists: ["/assets/laravel.png", "/assets/tailwind.png"],
@@ -87,7 +87,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Narau | Blog Article",
+    title: "Narau",
     des: "A dynamic platform offering a wide array of blog articles on diverse topics, ranging from technology and business to lifestyle and culture.",
     img: "/assets/narau.png",
     iconLists: ["/assets/laravel.png", "/assets/boot-removebg-preview.png", "/assets/css.png"],
@@ -95,7 +95,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Goraku | Anime Information",
+    title: "Goraku",
     des: "An immersive platform dedicated to all things anime, featuring the latest news, reviews, and discussions on beloved series and characters.",
     img: "/assets/goraku.png",
     iconLists: ["/assets/nex-removebg-preview.png", "/assets/tailwind.png"],
