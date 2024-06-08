@@ -8,7 +8,7 @@ import { navItems } from "@/data";
 
 export default function Home() {
   return (
-    <main className=" dark:bg-black dark:text-white">
+    <main className=" bg-black text-white">
       <div className="relative w-full px-6 md:px-16">
         <FloatingNav navItems={navItems} />
       </div>
