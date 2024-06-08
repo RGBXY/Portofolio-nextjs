@@ -3,33 +3,34 @@ import { StickyScroll } from "./ui/StickyScroll";
 
 const content = [
   {
-    title: "Collaborative Editing",
-    description: "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
-    content: <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">Collaborative Editing</div>,
+    title: "Experienced Software Developer",
+    description:
+      "I am a dedicated Full-Stack Developer with two years of experience in the tech industry. My expertise includes working with technologies like Next.js, React, and Laravel. I thrive in creating dynamic and responsive web applications, and I am passionate about delivering high-quality solutions that meet user needs and business objectives.",
+    content: <img src="/assets/about_1.jpg" className="object-cover h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white" />,
   },
   {
-    title: "Real time changes",
+    title: "Strong Educational Foundation",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-    content: <div className="h-full w-full  flex items-center justify-center text-white"></div>,
+      "I school in SMK Negeri 1 Bangsri, where I specialized in Software Engineering (PPLG). My education provided me with a solid grounding in software development principles and practices. The hands-on learning environment and rigorous curriculum equipped me with the skills necessary to excel in the fast-paced tech industry.",
+    content: <img src="/assets/about_2.png" className="object-cover h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white" />,
   },
   {
-    title: "Version control",
+    title: "Tech Enthusiast",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">Version control</div>,
+      "I am deeply passionate about the ever-evolving world of technology. In my spare time, I enjoy exploring new programming languages and frameworks, staying updated with the latest tech trends, and participating in online coding communities. This continuous learning process fuels my creativity and helps me stay at the forefront of technological advancements.",
+    content: <img src="/assets/about_3.jpg" className="object-cover h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white" />,
   },
   {
-    title: "Running out of content",
+    title: "A Balanced Lifestyle",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">Running out of content</div>,
+      "Outside of my professional life, I pursue various hobbies that keep me balanced and inspired. I enjoy reading philosophical books and novels, which broaden my imagination and knowledge. Apart from that, I love spending time outdoors looking for new experiences, which can help me recharge and stay creative.",
+    content: <img src="/assets/about_3.jpg" className="object-cover h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white" />,
   },
 ];
 
 const About = () => {
   return (
-    <div className="flex justify-center flex-col items-center pt-20">
+    <div id="about" className="flex justify-center flex-col items-center pt-20">
       <div className="text-start w-[90%] max-w-2xl  lg:w-fit">
         <h1 className="mb-10 pb-3 text-3xl border-b-2 border-white">About Me</h1>
       </div>

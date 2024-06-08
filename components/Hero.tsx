@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="text-end md:border-r-4 lg:h-[380px] pl-4 pr-4 w-full lg:w-[400px] flex justify-center items-end flex-col lg:pl-0 lg:pr-10">
           <TextGenerateEffect className={`${chakra.className} text-4xl lg:text-[2.8rem] font-bold mb-2`} words="Hi, welcome to my . portofolio Derren Amadeo" />
           <TextGenerateEffect className="font-semibold mb-5" words="Fullstack Developer" />
-          <Link href={"/home"}>
+          <Link href={"#project"}>
             <HoverBorderGradient containerClassName="rounded-xl" as="button" className="">
               <span className="flex items-center gap-2">
                 <ImConfused />

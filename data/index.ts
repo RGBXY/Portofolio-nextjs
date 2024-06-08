@@ -5,11 +5,15 @@ export const navItems = [
   },
   {
     name: "About",
-    link: "/about",
+    link: "#about",
+  },
+  {
+    name: "Project",
+    link: "#project",
   },
   {
     name: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];
 
@@ -67,34 +71,52 @@ export const people = [
 export const projects = [
   {
     id: 1,
-    title: "Profil Jurusan PPLG",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "PPLG department profile",
+    des: "A dynamic web profile for SMK Negeri 1 Bangsri's Software Engineering (PPLG) department, showcasing curriculum, projects, and achievements.",
     img: "/assets/pplg.png",
     iconLists: ["/assets/laravel.png", "/assets/tailwind.png", "/assets/boot-removebg-preview.png"],
-    link: "/pplg.smkn1bangsri.sch.id",
+    link: "https://pplg.smkn1bangsri.sch.id/",
   },
   {
     id: 2,
-    title: "Karabo",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Karabo | Q&A platform",
+    des: "An interactive Q&A platform enabling users to ask questions, share knowledge, and engage in community discussions. Designed for efficient information exchange and collaborative problem-solving.",
     img: "/assets/karabo.png",
     iconLists: ["/assets/laravel.png", "/assets/tailwind.png"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/RGBXY/karabo.git",
   },
   {
     id: 3,
-    title: "Narau",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Narau | Blog Article",
+    des: "A dynamic platform offering a wide array of blog articles on diverse topics, ranging from technology and business to lifestyle and culture.",
     img: "/assets/narau.png",
-    iconLists: ["/assets/laravel.png", "/assets/tailwind.png", "/assets/boot-removebg-preview.png"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/assets/laravel.png", "/assets/boot-removebg-preview.png", "/assets/css.png"],
+    link: "https://github.com/RGBXY/Narau.git",
   },
   {
     id: 4,
-    title: "Goraku",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Goraku | Anime Information",
+    des: "An immersive platform dedicated to all things anime, featuring the latest news, reviews, and discussions on beloved series and characters.",
     img: "/assets/goraku.png",
     iconLists: ["/assets/nex-removebg-preview.png", "/assets/tailwind.png"],
-    link: "/ui.apple.com",
+    link: "https://github.com/RGBXY/Goraku.git",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/assets/git.svg",
+    link: "https://github.com/RGBXY",
+  },
+  {
+    id: 2,
+    img: "/assets/link.svg",
+    link: "https://www.linkedin.com/in/derren-amadeo-hermawan-017306284/",
+  },
+  {
+    id: 3,
+    img: "/assets/instagram.svg",
+    link: "https://www.instagram.com/1m4nuell/",
   },
 ];
