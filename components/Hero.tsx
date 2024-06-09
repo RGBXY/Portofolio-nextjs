@@ -24,7 +24,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="w-full h-[350px] lg:h-[380px] px-4 lg:w-[300px]">
-          <Image width={200} height={200} className="w-full h-full object-cover" src={"/assets/profil.jpg"} alt="iyah" />
+          <img className="w-full h-full object-cover" src={"/assets/profil.jpg"} alt="iyah" />
         </div>
       </div>
     </div>
