@@ -33,7 +33,7 @@ export const people = [
   {
     id: 3,
     name: "JavaScript",
-    designation: "50%",
+    designation: "80%",
     image: "/assets/js.png",
   },
   {
@@ -44,7 +44,7 @@ export const people = [
   },
   {
     id: 5,
-    name: "NextJs",
+    name: "Next.Js",
     designation: "60%",
     image: "/assets/nex-removebg-preview.png",
   },
@@ -56,7 +56,7 @@ export const people = [
   },
   {
     id: 7,
-    name: "ReactJs",
+    name: "React.Js",
     designation: "60%",
     image: "/assets/react.png",
   },
@@ -65,6 +65,18 @@ export const people = [
     name: "Tailwind",
     designation: "90%",
     image: "/assets/tailwind.png",
+  },
+  {
+    id: 9,
+    name: "Vue.js",
+    designation: "90%",
+    image: "/assets/vue.png",
+  },
+  {
+    id: 10,
+    name: "Sql",
+    designation: "60%",
+    image: "/assets/mysql.png",
   },
 ];
 
